@@ -130,3 +130,32 @@ input:focus{
 #register-form input[type="submit"]:hover{
     opacity: 1;
 }
+
+@media (max-width: 768px) and (min-width: 500px) {
+    #register-container{
+        max-width: 80vw;
+    }
+
+    #register-banner h1{
+        font-size: 3rem;
+    }
+
+    #register-form h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:500px) and (min-width: 425px),
+(max-width: 424px) and (min-width: 0px)
+{
+    #register-banner{
+        display: none;
+    }
+    #register-form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 424px) and (min-width: 320px){
+    
+}
