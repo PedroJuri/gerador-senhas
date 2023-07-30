@@ -143,22 +143,23 @@ input:focus{
     #register-form h2{
         font-size: 1.6rem;
     }
-    html, body{
-        height: 100%;
+    #register-container{
+        margin: 1.5rem auto;
     }
 }
 
-@media (max-width:500px) and (min-width: 425px),
-(max-width: 424px) and (min-width: 0px)
+@media (max-width:500px) and (min-width: 0px)
 {
     #register-banner{
         display: none;
     }
+    #register-form h2{
+        font-size: 1.5rem;
+    }
     #register-form{
         width: 100%;
     }
-}
-
-@media (max-width: 424px) and (min-width: 320px){
-    
+    #register-container{
+        margin: 1rem auto;
+    }
 }
