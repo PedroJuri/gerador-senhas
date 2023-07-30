@@ -8,7 +8,7 @@
 
 html, body{
     height: auto;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 html{
@@ -142,6 +142,9 @@ input:focus{
 
     #register-form h2{
         font-size: 1.6rem;
+    }
+    html, body{
+        height: 100%;
     }
 }
 
